@@ -37,13 +37,13 @@ python main1.py
 5. Press 'q' to stop the video capture and close the application.
 ## File Structure 
 
---> main1.py: Main script that captures and processes the image.
+- **main1.py: Main script that captures and processes the image.**
 
---> utlis.py: Utility functions used in main1.py.
+- **utlis.py: Utility functions used in main1.py.**
 
---> README.md: This readme file.
+- **README.md: This readme file.**
 
---> images.jpeg: Sample image used if webcam is not available.
+- **images.jpeg: Sample image used if webcam is not available.**
 ## Acknowledgment 
 
 
