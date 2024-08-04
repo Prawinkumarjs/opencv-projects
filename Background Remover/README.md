@@ -1,21 +1,22 @@
 # Background Remover with Webcam and Custom Images
 
-This project demonstrates a background removal application using OpenCV and the `cvzone` library. The application captures video from the webcam and allows users to remove the background from the video feed using custom images loaded from a specified directory.
+   This project demonstrates a background removal application using `OpenCV` and the `cvzone` library. The application captures video from the webcam and allows users to remove the background from the video feed using    custom images loaded from a specified directory.
 ## Example:
-![Background Remover with Webcam and Custom Images](https://github.com/Prawinkumarjs/opencv-projects/blob/main/Background%20Remover/virtual-background-green-screen-example.jpg)
+   ![Background Remover with Webcam and Custom Images](https://github.com/Prawinkumarjs/opencv-projects/blob/main/Background%20Remover/virtual-background-green-screen-example.jpg)
 
 
 ## Features
 
-- Real-time background removal using `cvzone.SelfiSegmentation`.
-- Switch between different background images using keyboard inputs.
-- Display the frames per second (FPS) of the application.
+   - Real-time background removal using `cvzone.SelfiSegmentation`.
+   - Switch between different background images using keyboard inputs.
+   - Display the frames per second (FPS) of the application.
 
 ## Requirements
 
-- Python 3.x
-- OpenCV
-- cvzone
+   - Python 3.x
+   - OpenCV
+   - cvzone
+   - mediapipe
 
 ## Installation
 
@@ -42,7 +43,7 @@ This project demonstrates a background removal application using OpenCV and the 
 
 1. **Prepare the Images:**
 
-Create a directory named Images in the project root directory. Place your background images (e.g., 1.jpg, 2.jpg, 3.jpg) inside this directory.
+   Create a directory named Images in the project root directory. Place your background images (e.g., 1.jpg, 2.jpg, 3.jpg) inside this directory.
 
 2. **Run the Application:**
 
@@ -53,11 +54,11 @@ Create a directory named Images in the project root directory. Place your backgr
 
 3. **Controls:**
 
-- 'a' key: Switch to the previous background image.
+   - 'a' key: Switch to the previous background image.
 
-- 'd' key: Switch to the next background image.
+   - 'd' key: Switch to the next background image.
 
-- 'q' key: Quit the application.
+   - 'q' key: Quit the application.
 
 ## Code Explanation
 
@@ -102,8 +103,8 @@ Here is a brief explanation of how the code works:
 
 4. **Main Loop:**
 
-        ```python
-        
+    ```python
+   
         while True:
             success, img = cap.read()
             if not success:
