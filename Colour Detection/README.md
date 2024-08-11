@@ -32,6 +32,10 @@ The following colors are detected by the code:
     `(or)`
 - **Blue**: `(BGR: [255, 0, 0])`
 
+## Example :
+    
+![Color Object Detection](https://github.com/Prawinkumarjs/opencv-projects/blob/main/Colour%20Detection/Color%20Object%20Detection.jpeg)
+
 
 ## Usage
 
