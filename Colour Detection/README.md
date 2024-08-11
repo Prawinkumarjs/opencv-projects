@@ -7,7 +7,7 @@ This project demonstrates how to detect multiple colored objects in a video feed
 
 Before running the code, ensure that you have the following libraries installed:
 
-    ```bash
+    ``` bash
     pip install opencv-python pillow numpy
     ```
 
@@ -49,7 +49,8 @@ The following colors are detected by the code:
 ## License
 
 This project is licensed under the MIT License.
-```
-    ---
 
-    This `README.md` file provides a clear and concise explanation of the project,      including how it works, the code, and how to use it. You can modify it according to your needs or add more details if required.
+---
+
+This `README.md` file provides a clear and concise explanation of the project, 
+including how it works, the code, and how to use it. You can modify it according to your needs or add more details if required.
